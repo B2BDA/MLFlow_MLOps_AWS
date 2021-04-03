@@ -1,0 +1,10 @@
+ELB - Elastic Load Balancer can help manage the traffic between fe and be and can auto scale be servers on demand
+Tightly knit or monolithic architectures are highty prone to failure as in when one component fails the entire system might fail
+We can use microservice like architecture with AWS SQS(Simple Queue Service) and AWS SNS(Simple Notification Service).
+SQS acts as a buffer and can store the payload from one component and pass it on to the next component. So as in when once component fails, the SQS keeps storing the payload until the failed component comes back online. 
+AWS Lambda is a place where you can put your codes and set up a trigger that will trigger the code. This is a serverless unit ie the code runs in a managed server where auto scaling is enabled.
+AWS Fargate is a serverless platform for both ECS(Elsatic Container Service) and EKS(Elastic Kubernertes Service)
+Serverless means we do not care about the backend architecture, we just deploy code and forget rest is taken care by the backend service providers
+AWS Beanstalk helps to create AWS EC2 instances by writing codes and auto balancers and so on
+Help in automated and repetative AWS server creations
+AWS Cloudformation build ecosystme using YAML or JSON. Store config for the server.

@@ -1,0 +1,4 @@
+artifact_location: file:///mnt/d/B2B_Git_Instance/MLFlow_MLOps/mlruns/0
+experiment_id: '0'
+lifecycle_stage: active
+name: Default

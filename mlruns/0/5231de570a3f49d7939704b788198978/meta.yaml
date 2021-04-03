@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/B2B_Git_Instance/MLFlow_MLOps/mlruns/0/5231de570a3f49d7939704b788198978/artifacts
+end_time: 1615028392142
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 5231de570a3f49d7939704b788198978
+run_uuid: 5231de570a3f49d7939704b788198978
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1615028391600
+status: 3
+tags: []
+user_id: b2b
