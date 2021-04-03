@@ -8,3 +8,9 @@ Serverless means we do not care about the backend architecture, we just deploy c
 AWS Beanstalk helps to create AWS EC2 instances by writing codes and auto balancers and so on
 Help in automated and repetative AWS server creations
 AWS Cloudformation build ecosystme using YAML or JSON. Store config for the server.
+AWS EBS (Elastic Block Store) - these are tied with EC2 instances so when I stop an instance the data still persists and doesn't gets deleated
+Regular backup or snapshots of EBS is a must
+AWS S3 (simple storage service) - data is stored as objects and in buckets
+S3 glaciar to archive data 
+AWS RDS (relational data base services)
+AWS Aurora - MYSQL and Postgres SQL - managed RDBMS
